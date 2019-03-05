@@ -9,7 +9,7 @@ public class UserMngController {
 
     @RequestMapping("/toLogin")
     public String toLoginPage() {
-        return "user/login1";
+        return "user/login";
     }
 
 }
